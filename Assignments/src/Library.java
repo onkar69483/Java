@@ -51,8 +51,8 @@ public class Library {
 		this.book = new Book[5];
 	}
 	public void add_book(String book_name, int price, String author_name, int author_age) {
-		Author author = new Author(author_name, author_age);
 		if(book_number<5) {
+			Author author = new Author(author_name, author_age);
 			this.book[this.book_number] = new Book(book_name, price, author);
 			this.book_number++;
 		}

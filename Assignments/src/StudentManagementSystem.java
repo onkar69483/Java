@@ -48,15 +48,13 @@ class Teacher {
 
 public class StudentManagementSystem {
     public static void main(String[] args) {
-        // Create instances of Student, Teacher, and Course
         Teacher teacher = new Teacher(1, "Mihir Hebalkar");
         Course course = new Course("DBMS", teacher);
 
         Student student = new Student("Onkar", "ComputerScience");
-        // Display information
         System.out.println("Student Name: " + student.getName());
 
-        System.out.println("Course Name: " + course.getName());
+        System.out.println("Course Name: " + student.getCourse());
         System.out.println("Teacher Name: " + course.getTeacher().getTeacherName());
     }
 }

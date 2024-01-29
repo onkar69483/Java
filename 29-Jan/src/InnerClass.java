@@ -20,19 +20,4 @@ public class InnerClass {
 		InnerClass.Iclass i1 = c1.new Iclass();
 		i1.dispOvar();
 	}
-	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

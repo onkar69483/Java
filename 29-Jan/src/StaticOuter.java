@@ -7,8 +7,8 @@ public class StaticOuter {
 		void disp() {
 			System.out.println("StaticNested method, Outer Var: "+outerStaticVariable);
 		}
-		
 	}
+	
 	public static void main(String[] args) {
 		StaticOuter outerObj = new StaticOuter();
 		StaticOuter.StaticNested sninner = new StaticOuter.StaticNested();

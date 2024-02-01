@@ -1,4 +1,3 @@
-
 class Vehicle{
 	private String vehicle_type; //Car, truck, two wheeler etc
 	private String vehicle_number;

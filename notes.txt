@@ -1,2 +1,3 @@
 Feb-07 (DAY-8)
-    - 
+    - Abstraction -> Only expose the functionality, but not the functionality.
+

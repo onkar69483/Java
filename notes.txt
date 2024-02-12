@@ -1,3 +1,12 @@
 Feb-07 (DAY-8)
     - Abstraction -> Only expose the functionality, but not the functionality.
     
+Feb-12
+Java Packages
+-java.util - contains utility packages
+-java.applet - the gui package
+-java.io - contains input output packages
+
+Creating Custom packages
+-Create package in src
+-create new class in that package

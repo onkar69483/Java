@@ -9,7 +9,8 @@ public class LoginDemo {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver"); // Class named class in java
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/flexi","Onkar", "Prem@1234");
-			System.out.println("Connection Established");
+			System.out.
+			println("Connection Established");
 			Statement stmt = conn.createStatement();
 			ResultSet rs = stmt.executeQuery("select * from login");
 			ResultSetMetaData rsMetaData = rs.getMetaData();

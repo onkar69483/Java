@@ -1,5 +1,6 @@
 #!/bin/sh
 git pull
 git add .
-git commit -m "adding files"
+read message
+git commit -m "$message"
 git push

@@ -1,6 +1,6 @@
 #!/bin/sh
+commit_message="$1"
 git pull
 git add .
-
-git commit -m $0
+git commit -m "$commit_message"
 git push

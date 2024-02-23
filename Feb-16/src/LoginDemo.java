@@ -73,7 +73,7 @@ public class LoginDemo {
         int rowsAffected = stmt.executeUpdate(query);
         if (rowsAffected > 0) {
             System.out.println("Registered Successfully");
-        } else {
+        } else
             System.out.println("Registration Failed");
         }
     }

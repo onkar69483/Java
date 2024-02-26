@@ -21,6 +21,9 @@ public class ExceptionExample {
 			// TODO: handle exception
 			System.out.println("Exception occured");
 		}
+		finally {
+			System.out.println("Finally Block");
+		}
 		System.out.println(array[0]);
 		System.out.println(array[1]);
 

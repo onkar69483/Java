@@ -38,6 +38,7 @@ Unchecked Exceptions
 -IndexOutofBounds Exceptions
 	-ArrayIndexOutOfBound Exceptions
 	-StringIndexOutOfBound Exceptions
+-InputMismatchException
 
 Errors
 -Stack Overflow Errors

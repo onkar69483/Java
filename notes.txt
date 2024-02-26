@@ -15,5 +15,16 @@ Creating Custom packages
 Feb-26
 Exeption Handling
 2 types
-1) Checked exception
-3) Unchecked exception eg - typecast error, null ptr exceptions
+1) Checked exception (CompileTime)
+3) Unchecked exception (RunTime) eg - typecast error, null ptr exceptions
+	
+	Object
+	  |
+      Throwable
+	 / \
+    Error   Exception
+(unchecked)    / \
+        Runtime   Compiletime
+    (unchecked)      (checked)
+	 
+	 

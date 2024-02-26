@@ -26,5 +26,26 @@ Exeption Handling
 (unchecked)    / \
         Runtime   Compiletime
     (unchecked)      (checked)
+   
+Check Exceptions
+-IO Exception
+-SQL Exception
+-ClassNotFoundException
+
+Unchecked Exceptions
+-Arithmetic Exceptions
+-Null Pointer Exceptions
+-IndexOutofBounds Exceptions
+	-ArrayIndexOutOfBound Exceptions
+	-StringIndexOutOfBound Exceptions
+
+Errors
+-Stack Overflow Errors
+-Virtual Machine Errors
+
+Imp Keywords
+-try - specify a block where we should place and exception code
+-catch - this block catches error of try block
+-finally execute the necessary code of the program, it is always executed even if the exception is handled or not
 	 
 	 

@@ -10,3 +10,10 @@ Java Packages
 Creating Custom packages
 -Create package in src
 -create new class in that package
+
+
+Feb-26
+Exeption Handling
+2 types
+1) Checked exception
+3) Unchecked exception eg - typecast error, null ptr exceptions

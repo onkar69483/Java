@@ -47,7 +47,10 @@ Errors
 Imp Keywords
 -try - specify a block where we should place and exception code
 -catch - this block catches error of try block
--finally execute the necessary code of the program, it is always executed even if the exception is handled or not
+-finally - execute the necessary code of the program, it is always executed even if the exception is handled or not
+-throw - The throw keyword in Java is used to explicitly throw an exception from a method or any block of code. When we want to create our own exception
+	- We can create an exception which extends exception class and use a function to throw that error 
+
 
 multiple catch blocks can be defined below a try block when u dont know which type of exception might come, directly u can use Exception e
 	 

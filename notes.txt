@@ -64,4 +64,11 @@ Strings
 -If there is a string which is going to change its value frequently then u should use string buffer
 -Whenever u create an object using String Buffer it gets stored in string pool and doesnt allow any duplicated, it gets stored in java heap.
 
+
+Methods of Java Strings(Pretty much self explainatory) 
+(Methods might have different name for String buffer and String literal)
+
+String buffer is slower than String builder because of Thread Lock time(Thread Safety)
+
+
 	 

@@ -55,3 +55,13 @@ Imp Keywords
 multiple catch blocks can be defined below a try block when u dont know which type of exception might come, directly u can use Exception e
 	 
 	 
+March-04
+
+Strings
+#String Pool
+-String Literal vs String Object
+-Object creating using String buffer are useful when u have to store data in memory
+-If there is a string which is going to change its value frequently then u should use string buffer
+-Whenever u create an object using String Buffer it gets stored in string pool and doesnt allow any duplicated, it gets stored in java heap.
+
+	 

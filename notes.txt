@@ -71,4 +71,23 @@ Methods of Java Strings(Pretty much self explainatory)
 String buffer is slower than String builder because of Thread Lock time(Thread Safety)
 
 
-	 
+March-08   
+
+Collections - Extendend Cut
+
+Hash Tables
+	-It does not allow duplicate tables
+	-When u require faster searches, use hashtables
+
+Hash Set
+	-Hash set stores elements by using mechanism called hashing
+	-it contains unique elements only
+	-allows null values
+	-class is non synchronized
+	-doesn't maintain the insertion order. Here, elements are inserted on the basis of their hashcode
+	-it is the best approach for search operations
+	
+Hash Map
+	-Contains values based on key
+	-Contains only unique keys
+	-may have one null keys

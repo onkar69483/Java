@@ -1,1 +1,16 @@
-This is new testfile
+Inheritance, Abstract class, Interfaces and Packages: 14
+
+Inheritance, types: single, multi-level, hierarchical inheritance, use of
+this and super keyword, super constructor, final variables, final methods
+and classes, Abstract keyword, abstract methods and classes, method
+overloading, method overriding. Dynamic Method Dispatch, Interfaces,
+implementing and extending and accessing interface variables. Java
+packages, importing packages, access control and modifiers. Arrays,
+Arraylist, vector, garbage collector, java miscellaneous: String, String
+Buffer class, String Tokenizer
+
+Exception Handling: 10
+
+Exception handling, need for exception handling, exception types, using
+try-catch, multiple catch, nested try, finally, throw, throws, user defined
+exceptions

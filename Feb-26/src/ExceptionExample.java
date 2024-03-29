@@ -6,8 +6,6 @@ public class ExceptionExample {
 		array[1] = 2;
 		try {
 //			System.out.println(array[3]);
-			int i=50;
-			int c = i/0;
 		} 
 		catch(ArithmeticException e) {
 			System.out.println("ArithmeticException occured");

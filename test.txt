@@ -13,4 +13,83 @@ Exception Handling: 10
 
 Exception handling, need for exception handling, exception types, using
 try-catch, multiple catch, nested try, finally, throw, throws, user defined
-exceptions
+exceptions.
+
+
+Use of this and super keyword
+-Super keyword is used to access methods and data members of parent class
+-This keyword is used to access methods and data members of current class
+
+
+Super constructor - super()
+-It deals with the parent class constructor
+-It is used to call parent class constructor 
+-super() calls default constructor - it is automatically called when child object is created
+-super(parameter) calls the parameterized constructor, it is compulsory to call when default constructor is not defined
+-super() constructor can be only called in the constructor of the child class and in no other function of the child class.
+
+Final
+1. Final variables
+	the value of the variable cannot be changed once it has been initialized
+2. Final methods
+	the method cannot be overridden by a subclass,
+3. Final class 
+	it cannot be extended by a subclass/ cannot perform inheritance on that class
+	
+Condition
+1. Initialization - Final variables must be initialized either at the time of declaration or in the constructor of the class
+ 
+-Using final keyword improves performance and security by preventing malicious code from modifying sensitive data or behaviour
+
+Abstract Keyword
+-It is used to declare abstract methods and classes
+-It is used to create methods and classes which are not instantiated
+
+1. Abstract method
+	it is a method which is declared without implementation, it does not have a body. It is compulsory to provide its implementation in the subclasses
+2. Abstract classes
+	it is a class which cannot be instantiated directly and contains abstract and non abstract methods.
+	
+Imp point
+-Anonymous subclass - An anonymous subclass in Java is a type of subclass that is declared and instantiated at the same time, without explicitly naming the subclass. Instead of defining a separate named class that extends another class, you define the subclass directly at the point where you need it, typically when creating an object instance.
+
+Parent child = new Parent(){
+	// Same content as u do in a subclass
+}
+
+Method Overloading
+If a class has multiple methods with same name but different params then it is known as method overloading 
+
+There are two ways to overload the method in java
+
+-By changing number of arguments
+-By changing the data type
+
+Method Overriding(Runtime polymorphism)
+-If subclass has same method declared as parent clas, it is known as method overriding
+-if subclass provides specific implementation of that method.
+
+Imp point 
+-In Java, when you have a method in a child class with the same signature (name and parameters) as a method in its parent class, it automatically overrides the parent class method without needing to explicitly use the @Override annotation. This is because method overriding is a fundamental feature of inheritance in object-oriented programming.
+
+-while using @Override is not strictly necessary for method overriding to work in Java, it's considered a good practice because it improves code readability, helps catch errors early, and ensures that your code remains robust and maintainable, especially in larger projects or team collaborations.
+
+
+Dynamic Method Dispatch / Runtime polymorphism in Java
+-It is a mechanism by which the method called on an object is determined at runtime, based on the actual type of the object, rather than the type of the reference variable.
+
+Interface in java
+-mechanism to achieve abstraction
+-only method signature is there, no method body
+
+-keyword implements is used
+-u can directly use interface variable by using their name directly no need to use dot operator
+
+
+-upcasting - casting an object of a subclass to be treated as an object of its superclass.
+	Shape circle = new Circle();
+	circle cannot access methods which are unique in class Circle
+	it can only access the methods of the class Shape;
+
+Interfaces
+

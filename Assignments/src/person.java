@@ -1,46 +1,54 @@
-// question 15
 
-public class person {
-    private int age;
-
-    // Constructor
-    public person(int age) {
-        if (age >= 0) {
-            this.age = age;
-        } 
-        else {
-            this.age = 0;
-            System.out.println("Age is not valid, setting age to 0.");
-        }
-    }
-
-    public void yearPasses() {
-        this.age++;
-    }
-
-    public void amIOld() {
-        if (age < 13) {
-            System.out.println("You are young.");
-        } else if (age >= 13 && age < 18) {
-            System.out.println("You are a teenager.");
-        } else {
-            System.out.println("You are old.");
-        }
-    }
-
-    public static void main(String[] args) {
-        
-        person person1 = new person(17);
-        person1.amIOld();
-        person1.yearPasses();
-        person1.amIOld();
-
-        System.out.println();
-
-        person person2 = new person(-5);
-        person2.amIOld();
-        person2.yearPasses();
-        person2.amIOld();
-    }
+public class Person {
+	private String name;
+	private int age;
+	private String country;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public String getCountry() {
+		return country;
+	}
+	public void setCountry(String country) {
+		this.country = country;
+	}
+	public void display() {
+		System.out.println("Name: "+name);
+		System.out.println("Age: "+age);
+		System.out.println("Country: "+country);
+	}
+	public static void main(String[] args) {
+		Person person[] = new Person[3];
+		person[0] = new Person();
+		person[1] = new Person();
+		person[2] = new Person();
+		
+		person[0].setName("Onkar");
+		person[0].setAge(18);
+		person[0].setCountry("India");
+		
+		person[1].setName("Sachin");
+		person[1].setAge(25);
+		person[1].setCountry("US");
+		
+		person[2].setName("Mihir");
+		person[2].setAge(26);
+		person[2].setCountry("Africa");
+		
+		System.out.println("Displaying Person Details");
+		for(int i=0; i<3;i++) {
+			person[i].display();
+			System.out.println();
+		}
+		
+	}
 }
-
